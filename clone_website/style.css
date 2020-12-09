@@ -12,7 +12,7 @@
 }
 header h1 {
     position: absolute;
-    left: -300px;
+    left: -100px;
     top: 30px;
     font-size: 25px;
 }
@@ -27,17 +27,26 @@ header nav {
     text-align: center;
     top: 30px;
 }
-header .button {
+.button-help{
 position: absolute;
-right: -300px;
-top: 30px;
+right: -100px;
+top: 20px;
 display: block;
-width: 200px;
+width: 130px;
 height: 35px;
 line-height: 35px;
 text-align: center;
-border: 1px solid;
+border: 1px solid rgb(182, 182, 182);
+padding: 7px 18px; 
+font-weight: bold;
+transition: border 0.5s, background-color 0.5s, color 0.5s;
 } 
+
+.button-help:hover{
+  background-color: rgb(8, 8, 190);
+  color: white;
+  border: 1px solid white;
+}
 /* layout */
 
 /* header */
@@ -52,7 +61,7 @@ background-color: white;
 }
 /* main */
 main {
-height: 2790px;
+height: 2490px;
 }
 .jm {
 text-align: center;
