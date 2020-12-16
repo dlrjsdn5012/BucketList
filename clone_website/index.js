@@ -15,3 +15,17 @@
         document.getElementById('footer').style.backgroundColor = ('#000088')
     });
 }*/
+
+window.onload = function() {
+document.querySelector('.slide-btn1').addEventListener('click', function(){
+  document.querySelector('.slide-container').style.transform = 'translate(0vw)'
+});
+
+document.querySelector('.slide-btn2').addEventListener('click', function(){
+  document.querySelector('.slide-container').style.transform = 'translate(-100vw)'
+});
+
+document.querySelector('.slide-btn3').addEventListener('click', function(){
+  document.querySelector('.slide-container').style.transform = 'translate(-200vw)'
+});
+}

@@ -1,6 +1,7 @@
 #container {
     display: flex;
     flex-direction: column;
+    overflow-x: hidden;
 }
 .center-container {
     position: relative;
@@ -61,7 +62,11 @@ background-color: white;
 }
 /* main */
 main {
-height: 2490px;
+height: 3150px;
+overflow-x: hidden;
+}
+main #video {
+  width: auto;
 }
 .jm {
 text-align: center;
@@ -195,4 +200,33 @@ left: 450px;
 #XMas2 {
     position: fixed;
     top: 28px;
+}
+
+/* slide */
+
+.slide-container {
+  position: absolute;
+  width: 300vw;
+  transition: transform 0.5s;
+  overflow-x: hidden;
+  top: 2560px;
+
+}
+
+.slide-inner {
+  width: 100vw;
+  float: left;
+}
+
+.slide-inner img {
+  width: 100%;
+}
+
+.slide-btn button{
+  border-radius: 140px;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  position: relative;
+  left: 680px;
 }
