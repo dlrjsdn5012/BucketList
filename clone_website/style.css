@@ -62,7 +62,7 @@ background-color: white;
 }
 /* main */
 main {
-height: 3150px;
+height: 2990px;
 overflow-x: hidden;
 }
 main #video {
@@ -216,10 +216,11 @@ left: 450px;
 .slide-inner {
   width: 100vw;
   float: left;
+  text-align: center;
 }
 
 .slide-inner img {
-  width: 100%;
+  
 }
 
 .slide-btn button{
@@ -229,4 +230,5 @@ left: 450px;
   border: 1px solid white;
   position: relative;
   left: 680px;
+  top: -50px;
 }
